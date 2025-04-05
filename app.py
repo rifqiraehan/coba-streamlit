@@ -2,7 +2,7 @@ import streamlit as st
 from model.genai import get_response
 
 def main():
-    st.title("Echo Bot")
+    st.title("Coba Chatbot dari Rifqi Raehan")
 
     # Initialize chat history
     if "messages" not in st.session_state:
